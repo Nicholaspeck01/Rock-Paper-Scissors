@@ -9,7 +9,7 @@ var computerScore =0;
 
             for (playerScore = 0, computerScore = 0; playerScore < 3, computerScore < 3;){
             computerSelection = computerPlay();
-            playerSelection = (prompt("Let's play rock paper scissors! First player to 3 points wins! input rock, paper, or scissors to start."));
+            //playerSelection = (prompt("Let's play rock paper scissors! First player to 3 points wins! input rock, paper, or scissors to start."));
 
             if ((playerSelection == "scissors" && computerSelection == "paper") ||
                 (playerSelection == "rock" && computerSelection == "scissors") ||
