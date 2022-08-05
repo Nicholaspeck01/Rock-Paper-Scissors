@@ -1,20 +1,19 @@
-.main{
+html {
     font-family: 'Courier New', Courier, monospace;
-}
-.header-box{
-    margin: 0px;
-    height: 100px;
-    padding: 0px;
-    background: rgb(117, 110, 255);
-    display: flex 1;
+    background: rgb(16, 15, 34);
     color: white;
-    justify-content: center;
-    align-items: center;
-  }
-
-.header-content{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 32px;
     text-align: center;
-    padding: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.options {
+    height: 200px;
+    width: 200px;
+    padding: 40px;
 }
